@@ -1,0 +1,12 @@
+.hint-error {
+  color: #ff1111;
+  font-size: 15px;
+  margin: 10px 5px 10px 5px;
+  text-align: center;
+}
+.hint-info {
+  color: #42b983;
+  font-size: 15px;
+  margin: 10px 5px 10px 5px;
+  text-align: center;
+}

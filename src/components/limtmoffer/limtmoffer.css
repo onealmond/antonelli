@@ -1,0 +1,49 @@
+/** components/limtmoffer/limtmoffer.css */
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+.entry-title {
+  top: 20px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  list-style-type : none;
+}
+.entry-value {
+  font-size: 16px;
+  font-weight: 500;
+  width: 500px;
+  height: 20px;
+  border: 1px solid #c3c3c3;
+  color: #2c3e50;
+  display: inline-block;
+  float: right;
+}
+.entry-container {
+  position: static;
+  margin: 10px;
+  width: 90%;
+  height: auto;
+  list-style-type : none;
+  text-align: left;
+}
+.choose-offer {
+  position: static;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  height: auto;
+  display: inline-block;
+  float: right;
+}

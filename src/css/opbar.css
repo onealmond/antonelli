@@ -1,0 +1,17 @@
+/** operation bar */
+.op-bar {
+  width: auto;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  position: static;
+  text-align: left;
+  float: left;
+}
+.op-box {
+  position: relative;
+  width: 230px;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

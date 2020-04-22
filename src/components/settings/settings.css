@@ -1,0 +1,36 @@
+/** components/settings/settings.css */
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+.info-details {
+  position: relative;
+  top: 130px;
+  margin: 5px;
+}
+.avatar-container {
+  position: fixed;
+  top: 130px;
+  width: auto;
+  height: auto;
+  /*border: 1px solid #d2e2e2;*/
+}
+.avatar-upload {
+  position: relative;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 2px;
+  background-color: #fff;
+  color: #c5c5c5;
+}

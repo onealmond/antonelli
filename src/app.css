@@ -1,0 +1,104 @@
+/** app.css */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+body {
+  height: auto;
+  width: auto;
+}
+.greeting {
+  position: absolute;
+  left: 5px;
+  margin: 5px;
+  top: 10px;
+  font-size: 20px;
+}
+.comp-title {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 10px;
+  font-size: 20px;
+  margin: 5px;
+}
+.msg-notif {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.notif-container {
+  display: inline-block;
+  position: static;
+  width: auto;
+  height: 50px;
+  overflow: auto;
+  float: right;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+.rtview-nav {
+  /**left: 100px;*/
+  left: 125px;
+  top: 60px;
+  position: absolute;
+  width: 90%;
+}
+.rtview-wide {
+  left: 50px;
+  top: 60px;
+  position: absolute;
+  width: 95%;
+}
+
+.rtview-login {
+
+}
+
+.status-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.nav {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  height: 100%;
+  /*height: 1200px;*/
+  position: absolute;
+  left: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none !important;
+}
+.to-top {
+  position: fixed;
+  bottom: 10px;
+}
+.edit-zone {
+  position: static;
+  top: 50px;
+  margin: 5px;
+  width: 100%;
+}
+.line-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@import './css/sidebar.css'

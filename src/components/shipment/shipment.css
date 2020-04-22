@@ -1,0 +1,21 @@
+/** components/shipment/shipment.css */
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.banner {
+  background-color: #0c0c0c; 
+  width: 100%;
+  height: 30px;
+}
